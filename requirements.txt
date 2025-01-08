@@ -1,0 +1,7 @@
+torch
+torchvision
+numpy
+pathlib
+argparse
+tqdm
+pillow
