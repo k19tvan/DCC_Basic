@@ -70,5 +70,5 @@ Dogs vs. Cats dataset provided by [Kaggle](https://www.kaggle.com/competitions/d
 ```
 
 ```bash
-- ResNet18 architecture from [torchvision](https://pytorch.org/vision/stable/models.html)
+ResNet18 architecture from [torchvision](https://pytorch.org/vision/stable/models.html)
 ```
