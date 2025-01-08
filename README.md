@@ -3,10 +3,11 @@ A deep learning project implementing transfer learning with ResNet18 for binary 
 
 ### Table of contents
 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Installation](#installation)
 - [Training](#training)
-- [Inference](#Inference)
+- [Inference](#nference)
+- [Acknowledgments](#acknowledgments)
 
 
 ## 
@@ -18,7 +19,7 @@ A deep learning project implementing transfer learning with ResNet18 for binary 
 ##
 ### Installation
 
-* Environment Setup
+Environment Setup
 ```bash
 conda create -n dcc python=3.11
 conda activate dcc
@@ -27,7 +28,7 @@ cd DCC_Basic
 pip install requirements.txt
 ```
 
-* Dataset Setup
+Dataset Setup
 ```bash
 gdown https://drive.google.com/uc?id=1MGSHiGYqSPOS692uQt2rRCV2OlCR1rWo
 gdown https://drive.google.com/uc?id=1RL_CGNEsHbUErsoxmgOEKToGGRxmDof2
@@ -59,3 +60,10 @@ python test.py --model_path [model_path] --img_path [img_path]
 
 ```python
 Example: python test.py --model_path weight.pth --img_path test/test/1.png
+```
+
+##
+### Acknowledgments
+
+- Dogs vs. Cats dataset provided by [Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats)
+- ResNet18 architecture from [torchvision](https://pytorch.org/vision/stable/models.html)
