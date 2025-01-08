@@ -65,10 +65,6 @@ Example: python test.py --model_path weight.pth --img_path test/test/1.png
 ##
 ### Acknowledgments
 
-```bash
-Dogs vs. Cats dataset provided by [Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats)
-```
+> Dogs vs. Cats dataset provided by [Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats)
 
-```bash
-ResNet18 architecture from [torchvision](https://pytorch.org/vision/stable/models.html)
-```
+>ResNet18 architecture from [torchvision](https://pytorch.org/vision/stable/models.html)
