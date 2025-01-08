@@ -9,7 +9,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 def parse_args():
     parser = argparse.ArgumentParser(description='DogCatClassificationTraining')
     parser.add_argument('--model_path', type=str, default="weight.pth")
-    parser.add_argument('--img_path', type=str, default="test/test1/1.jpg")
+    parser.add_argument('--img_path', type=str, default="test/test/1.jpg")
     
     return parser.parse_args()
 
